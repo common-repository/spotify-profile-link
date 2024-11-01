@@ -1,0 +1,62 @@
+.clear{
+	clear:both;
+}
+
+#spotify_add_widget{
+	position:relative;
+	text-align: center;
+	width: 200px;
+	height: 157px;
+	margin: 10px auto !important;
+}
+
+#spotify_link{
+	width:100%;
+}
+
+#spotify_logo{
+
+margin: 0px 0px 20px 0 !important;
+padding: 0px !important;
+
+}
+
+a.big_button {
+
+    display: block;
+    height: 40px;
+    overflow: hidden;
+    padding: 0 18px 0 0;
+    background: url(big_button_bg.png) 100% -40px no-repeat;
+}
+ 
+a.big_button span {
+    display: block;
+    height: 30px;
+    padding: 10px 0 0 18px;
+    background: url(big_button_bg.png) 0 0 no-repeat;
+    font-size: 14px;
+    color: #444;
+    -moz-text-shadow: #fff 1px 1px 1px;
+    text-shadow: #fff 1px 1px 1px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+a.big_button:hover {
+    background-color: transparent;
+}
+ 
+a.big_button:active {
+    background-position: 100% -120px;
+}
+ 
+a.big_button:active span {
+    height: 29px;
+    padding-top: 11px;
+    background-position: 0 -80px;
+}
+
+a.big_button:hover span{
+	padding-top: 11px;
+}
